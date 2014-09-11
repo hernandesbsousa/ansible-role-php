@@ -3,6 +3,7 @@
 hwr_options:
   enable_fpm: yes
   install_composer: yes
+  use_apache: no
 
 php_ini:
   - section: "PHP"

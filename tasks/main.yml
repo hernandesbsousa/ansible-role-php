@@ -20,6 +20,9 @@
 - include: "fpm.yml"
   when: hwr_options.enable_fpm
 
+- include: "apache.yml"
+  when: hwr_options.use_apache
+
 - include: "composer.yml"
   when: hwr_options.install_composer
 
